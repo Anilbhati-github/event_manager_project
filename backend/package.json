@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31",
+    "nodemon": "^2.0.6",
+    "pg": "^8.4.2",
+    "react-moment": "^1.0.0",
+    "sequelize": "^6.3.5",
+    "uniq": "^1.0.1",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "webpack-node-externals": "^2.5.2"
+  }
+}
